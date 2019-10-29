@@ -5,6 +5,8 @@
 
 # 運用メモ
 ## ディレクトリ構成
+
+```
 footprint/  
 　 ├ book_A/  
 　 │ 　 ├ chapter1/  
@@ -17,6 +19,7 @@ footprint/
 　 │ 　 │ 　 └ piyo.c  
 　 │ 　 └ README.md  
 　 └ README.md
+```
 
 ## プレフィックス
 add： 新規追加のコミット  
