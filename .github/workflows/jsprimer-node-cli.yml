@@ -3,7 +3,6 @@ name: Node CI
 on:
   push:
     paths:
-      - '**'
       - 'js-primer/node-cli/**'
 
 jobs:
