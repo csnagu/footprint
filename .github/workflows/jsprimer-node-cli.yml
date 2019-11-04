@@ -2,8 +2,8 @@ name: Node CI
 
 on:
   push:
-    paths: 
-      - 'js-primer/node-cli/'
+    paths:
+      - 'js-primer/node-cli/**'
 
 jobs:
   build:
