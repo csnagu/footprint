@@ -6,7 +6,18 @@ function fetchUserInfo(userId) {
                 console.error("サーバーエラー", response);
             } else {
                 response.json().then(userInfo => {
-                    console.log(userInfo);
+                    const view = `
+                    <h4>${userInfo.name} (@${userInfo.login})</h4>
+                    <img src="${userInfo.avatar_url}" alt="${userInfo.login}" height="100">
+                    <dl>
+                        <dt>Location</dt>
+                        <dd>${userInfo.location}</dd>
+                        <dt>Repositories</dt>
+                        <dd>${userInfo.public_repos}</dd>
+                    </dl>
+                    `;
+                    const result = document.getElementById("result");
+                    result.innerHTML = view;
                 });
             }
         }).catch(error => {
