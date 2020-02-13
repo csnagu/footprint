@@ -1,0 +1,16 @@
+{
+  "name": "ts-helloworld-very-serious",
+  "version": "1.0.0",
+  "description": "https://qiita.com/matzkoh/items/90baab22ad489b78384b",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.7.5"
+  }
+}
