@@ -15,6 +15,6 @@ jobs:
         with:
           node-version: '12.x'
       - run: |
-        cd ts-helloworld-very-serious
-        npm install
-        npm test
+          cd ts-helloworld-very-serious
+          npm install
+          npm test
