@@ -1,0 +1,19 @@
+name: ts-helloworld-very-serious
+
+on:
+  push:
+    paths:
+      - 'ts-helloworld-very-serious/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: testing job
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+      - run: cd ts-helloworld-very-serious
+      - run: npm install
+      - run: npm test
