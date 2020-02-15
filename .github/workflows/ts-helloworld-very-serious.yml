@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: cd ts-helloworld-very-serious
-      - run: npm install
-      - run: npm test
+      - run: |
+        cd ts-helloworld-very-serious
+        npm install
+        npm test
