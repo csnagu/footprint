@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "ts-helloworld-very-serious/**"
-      - "ts-helloworld-very-serious.yml"
+      - ".github/workflows/ts-helloworld-very-serious.yml"
 
 jobs:
   test:
