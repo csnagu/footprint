@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "https://qiita.com/matzkoh/items/90baab22ad489b78384b",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
-  "main": "dist/index.js",
+  "main": "dist/lib/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "bin": {
+    "typescript-npm-starter": "dist/bin/index.js"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc",
+    "build": "run-p build:*",
+    "build:common": "tsc",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "fix": "run-p fix:*",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:prettier": "npm run lint:prettier -- --write",
