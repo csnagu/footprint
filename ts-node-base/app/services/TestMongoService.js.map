@@ -1,0 +1,1 @@
+{"version":3,"file":"TestMongoService.js","sourceRoot":"","sources":["TestMongoService.ts"],"names":[],"mappings":";;;AAIC,CAAC;AAEF,MAAM,cAAc,GAAG,OAAO,CAAC,YAAY,CAAC,CAAA;AAC5C,MAAM;AACN,MAAa,gBAAgB;IAClB,KAAK,CAAC,GAAG,CAAC,MAAW;QACxB,MAAM,OAAO,GAAG,MAAM,cAAc,CAAC,IAAI,EAAE,CAAC;QAC5C,OAAO,OAAO,CAAC;IACnB,CAAC;CACJ;AALD,4CAKC"}
