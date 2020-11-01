@@ -1,0 +1,25 @@
+{
+  "appenders": {
+    "access": {
+      "type": "dateFile",
+      "filename": "./log/access.log",
+      "pattern": "-yyyyMMdd"
+    },
+    "system": {
+      "type": "dateFile",
+      "filename": "./log/system.log",
+      "maxLogSize": 1048576,
+      "numBackups": 5
+    }
+  },
+  "categories": {
+    "access": {
+      "appenders": ["access"],
+      "level": "debug"
+    },
+    "default": {
+      "appenders": ["system"],
+      "level": "debug"
+    }
+  }
+}
