@@ -9,9 +9,9 @@ ref:
 
 ## 目的
 
-- [ x ] node.js ベースの WebAPI 作成方法を理解する
-- [ x ] express と typescript を組み合わせた API 作成方法を理解する
-- [ x ] MongoDB の使い方を理解する
+- [x] node.js ベースの WebAPI 作成方法を理解する
+- [x] express と typescript を組み合わせた API 作成方法を理解する
+- [x] MongoDB の使い方を理解する
 
 ## やること
 
